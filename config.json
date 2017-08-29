@@ -1,0 +1,5 @@
+{
+"forecasToday": {"city": "shanghai", "getForecastTime": "17:37", "sendMsgTime": "17:37", "email":["test@qq.com"]},
+"maxForecastCnt": "20",
+"appid": "your id"
+}

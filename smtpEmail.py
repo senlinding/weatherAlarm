@@ -6,8 +6,8 @@ from time import *
 from log import *
 
 class Email:
-    defaultUser = "linzistudio@qq.com"
-    defaultPwd = "loezixabhaowggcd"
+    defaultUser = "test@qq.com"
+    defaultPwd = "your pwd"
     def __init__(self):
         self.user = ""
         self.pwd = ""
@@ -54,4 +54,4 @@ if __name__ == '__main__':
     newEmail = Email()
     loginResult = newEmail.emailLogin()
     if loginResult == True:
-        map(lambda to: newEmail.send(to, "Automatic  Hello word", "ok Hello world!"), ["linzistudio@qq.com"])
+        map(lambda to: newEmail.send(to, "Automatic  Hello word", "ok Hello world!"), ["test@qq.com"])
